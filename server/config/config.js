@@ -37,3 +37,9 @@ if (process.env.NODE_ENV === 'dev') {
 
 //heroku config:set MONGO_URI="mongodb+srv://<user>:<password>@cluster0-zxm7g.mongodb.net/cafe"
 process.env.URLDB = urlDB;
+
+
+// ============================
+// Google Cliente ID
+// ============================
+process.env.CLIENT_ID = process.env.CLIENT_ID || '569846174973-s7rejij9plrkpff52jr1nls9c05r6482.apps.googleusercontent.com';
